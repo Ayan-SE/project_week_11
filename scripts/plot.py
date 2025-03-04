@@ -1,6 +1,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import matplotlib.pyplot as plt
+from statsmodels.tsa.seasonal import seasonal_decompose
 
 def plot_closing_prices(data, title="Closing Prices Over Time"):
     plt.figure(figsize=(12, 6))
